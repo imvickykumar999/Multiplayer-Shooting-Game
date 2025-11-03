@@ -9,7 +9,7 @@ import random
 import threading
 from art import *
 
-PORT = 8080 # this should be same as you define in playit.gg dashboard
+PORT = 8888 # this should be same as you define in playit.gg dashboard
 ADDR = "0.0.0.0"
 MAX_PLAYERS = 10
 MSG_SIZE = 2048

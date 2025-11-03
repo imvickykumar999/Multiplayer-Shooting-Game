@@ -15,7 +15,7 @@ from PIL import Image, ImageTk
 import psutil
 import pygame
 
-PORT = 11923 # this port is what you get from playit.gg dashboard
+PORT = 16191 # this port is what you get from playit.gg dashboard
 
 def get_connected_devices():
     ip_addresses = []
@@ -61,7 +61,7 @@ def get_user_input():
     server_label = tk.Label(frame, text="Enter server address:", font=custom_font, fg='lightblue', bg='#010d25')
     server_label.pack(pady=(20, 10))
 
-    server_var = tk.StringVar(value="vicks.imvickykumar999.online")
+    server_var = tk.StringVar(value="enterprise-closely.gl.at.ply.gg")
     ip_addresses = get_connected_devices()
     server_combobox = ttk.Combobox(frame, textvariable=server_var, values=ip_addresses, font=input_font, width=25, justify='center')
     server_combobox.pack(pady=(0, 20))
